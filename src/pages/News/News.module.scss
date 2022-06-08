@@ -1,0 +1,20 @@
+.container {
+  width: 1200px;
+  margin: 100px auto 0;
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .newsList {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    .newsItem {
+      h1 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+
+    input,
+    button {
+      font-size: 18px;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .errorMessage {
+      color: red;
+    }
+  }
+}
